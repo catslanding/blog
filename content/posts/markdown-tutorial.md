@@ -1,9 +1,7 @@
 ---
-title: "Markdown 入门教程"
+title: "Markdown"
 date: 2026-03-14
 draft: false
-tags: ["markdown", "教程", "写作"]
-categories: ["教程"]
 ShowToc: true
 ---
 

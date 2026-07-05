@@ -36,6 +36,7 @@ body {
     margin: 0 auto;
     padding: 0 var(--gap);
     height: var(--header-height);
+    overflow: visible;
 }
 
 /* Logo styles - PhotoGallery style */
@@ -53,7 +54,8 @@ body {
     font-size: 24px !important;
     font-weight: 700 !important;
     letter-spacing: -0.5px;
-    line-height: 1 !important;
+    line-height: 1.4 !important;
+    padding: 4px 0;
 }
 
 .logo a img {
@@ -149,7 +151,6 @@ html[data-theme="light"] #sun {
 /* Main content area - match header width */
 .main {
     max-width: var(--nav-width) !important;
-    padding-top: calc(var(--header-height) + var(--gap)) !important;
 }
 
 /* Mobile Menu Toggle Button - Stack style */

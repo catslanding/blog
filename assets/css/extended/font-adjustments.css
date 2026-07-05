@@ -266,10 +266,11 @@
 
 /* ===== 对齐修复 - 博客名和post标题对齐 ===== */
 
-/* 移除post-header的左右margin，使其与main的padding对齐 */
+/* 缩小post-header顶部间距，减少与页眉的距离 */
 .post-header {
   margin-left: 0 !important;
   margin-right: 0 !important;
+  margin-top: 12px !important;
 }
 
 /* 确保post-title与博客名左对齐 */
